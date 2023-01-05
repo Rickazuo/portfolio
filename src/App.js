@@ -4,8 +4,11 @@ import { Divider } from '@mui/material';
 import { Project } from './components/Project';
 
 const projects = [{
-  image: 1,
-  description: 1,
+  image: "oi",
+  description: `Sou Engenheiro de Produção que busca aprender e interagir com os novos desafios 
+  propostos. No momento estou focando no aprendizado de desenvolvimento WEB, utilizando 
+  tecnologias como JavaScript e MySQL. Procuro uma oportunidade de desenvolver e aplicar essas 
+  tecnologias com foco em aprofundar meus conhecimentos e entregar resultados para a empresa`,
   tecno: 1,
 },
 {
@@ -21,12 +24,15 @@ function App() {
       <Divider />
         <img className='image' src={profile} alt='profile'/>
         <div className='resume' ></div>
-        <p>
-        Sou Engenheiro de Produção que busca aprender e interagir com os novos desafios propostos.
-        No momento estou focando no aprendizado de desenvolvimento WEB, utilizando tecnologias
-        como JavaScript e MySQL.
-        Procuro uma oportunidade de desenvolver e aplicar essas tecnologias com foco em aprofundar
-        meus conhecimentos e entregar resultados para a empresa
+        <p className='NameTitle'>
+        Ricardo Kazuo Diniz Nozaki
+        </p>
+        <p className='Contact'>
+          Celular: (12) 98172-1089
+          E-mail: ricardo.k.nozaki@gmail.com
+          Linkedin: https://www.linkedin.com/in/ricardo-nozaki-2870b5189/
+          GitHub: https://github.com/Rickazuo
+          Cidade: Taubaté-SP
         </p>
       </header>
       <div className='projects'>
