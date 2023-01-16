@@ -9,63 +9,62 @@ import mysql from './assets/mysql.png'
 import linkedin64 from './assets/linkedin64.png'
 import cellphone from './assets/cell-phone.png'
 import email from './assets/email.png'
-import { Project } from './components/Project';
+import map from './assets/map.png'
+import { Resume } from './components/Resume';
 
-const projects = [{
-  image: "oi",
-  description: `Sou Engenheiro de Produção que busca aprender e interagir com os novos desafios 
+const resume = [{
+  aboutMe: `Sou Engenheiro de Produção que busca aprender e interagir com os novos desafios 
   propostos. No momento estou focando no aprendizado de desenvolvimento WEB, utilizando 
   tecnologias como JavaScript e MySQL. Procuro uma oportunidade de desenvolver e aplicar essas 
-  tecnologias com foco em aprofundar meus conhecimentos e entregar resultados para a empresa`,
-  tecno: 1,
+  tecnologias com foco em aprofundar meus conhecimentos e entregar resultados para a empresa.`,
 }]
+
 
 function App() {
   return (
     <div className='main-container'>
       <header className='header'>
         <img className='image' src={profile} alt='profile'/>
-        <div className='resume' >
-        <p className='NameTitle'>
+        <div>
+        <div className='nameTitle'>
         Ricardo Kazuo Diniz Nozaki
-        </p>
-        <p className='contact'>
-          <p>
-            <img src={cellphone} alt="smartphone icon"></img>
+        </div>
+        <div className='contact'>
+          <div className='info-text'>
+            <img src={cellphone} alt="smartphone icon"/>
           Celular: (12) 98172-1089
-          </p>
-          <p>
-            <img src={email} alt="email icon"></img>
+          </div>
+          <div className='info-text'>
+            <img src={email} alt="email icon"/>
           E-mail: ricardo.k.nozaki@gmail.com
-          </p>
-          <p>
+          </div >
+          <div className='info-text'>
+            <img src={map} alt="map icon"/>
           Cidade: Taubaté-SP
-          </p>
-          <p >
+          </div>
+          <div>
             <a href='https://www.linkedin.com/in/ricardo-nozaki-2870b5189/'>
             <img width="32px" src={linkedin64} alt="icon linkedin"></img>
             </a>
-          </p>
-          <p>
+          </div>
+          <div>
             <a href="https://github.com/Rickazuo">
               <img width="32px" src={github} alt="icon github"></img>
             </a>
-          </p> 
-        </p>
+          </div> 
+        </div>
         </div>
       </header>
-      <div className='projects'>
-        {projects.map(({image, description, tecno}) =>
-        <Project 
-        image={image}
-        description={description}
-        tecno={tecno}
+      <div className='descriptionAboutMe'>
+        {resume.map(({aboutMe}) =>
+        <Resume 
+        aboutMe={aboutMe}
         />
         )}
-        
       </div>
+      <div className='teste'>
       <div className='row'>
-        <div className='column'>
+        <div className='column left-column'>
           <h1>Experiência Profissional</h1>
           <h3>Assistente no Gerenciamento de Processos Internos, Drakkar Solos - Agricultura de
             Precisão (Fev 2020 - Fev 2021)- Estágio
@@ -119,6 +118,7 @@ function App() {
             <img src={mysql} alt="icone mysql"></img>
           </ul>
         </div>
+      </div>
       </div>
     </div>
   );
