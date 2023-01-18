@@ -11,6 +11,7 @@ import cellphone from './assets/cell-phone.png'
 import email from './assets/email.png'
 import map from './assets/map.png'
 import { Resume } from './components/Resume';
+import Background from './components/background';
 
 const resume = [{
   aboutMe: `Sou Engenheiro de Produção que busca aprender e interagir com os novos desafios 
@@ -22,8 +23,9 @@ const resume = [{
 
 function App() {
   return (
-    <div className='main-container'>
-      <header className='header'>
+    <div className='main-container' >
+      <Background></Background>
+      <header className='header' >
         <img className='image' src={profile} alt='profile'/>
         <div>
         <div className='nameTitle'>
