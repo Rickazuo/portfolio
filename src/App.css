@@ -1,36 +1,31 @@
 #root {
   font-family: "Arial";
+  color: #ede7f6;
 }
 .main-container {
-  background: white;
   height: 100vh;
   text-align: center;
-  //padding-top: 28px;
 }
 
-.header {
-  z-index: 3;
+.info-container {
   position: absolute;
-  top: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  padding: 2vw 10vw;
+  right: 8vw;
+  top: 36px;
+  z-index: 3;
 }
 
 .info-text {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 12px;
 }
 
 .nameTitle {
-  color: white;
   text-align: center;
   font: 45px Arial, sans-serif;
   margin-bottom: 18px;
+  z-index: 3;
 }
 
 .contact {
@@ -38,31 +33,24 @@
   flex-direction: column;
   align-items: end;
   gap: 20px;
+  position: absolute;
+  right: 0;
 }
 
 .image {
   border-radius: 200px;
-  border-block: 5px solid #62657b;
   background-color: black;
+  position: absolute;
+  z-index: 3;
+  left: 8vw;
+  top: 4vw;
 }
 
 .aboutMe {
-  //margin: auto;
-  background-color: #c3c3cd;
-}
-
-.titleAboutMe {
-  font-weight: bold;
-  font-size: 35px;
-  margin: auto;
-}
-
-.descriptionAboutMe {
+  background-color: #112740;
+  padding: 0.125rem 8vw;
   font-size: 22px;
-}
-
-.teste {
-  background-color: #d0d0df;
+  text-align: justify;
 }
 
 .column {
@@ -91,8 +79,9 @@
 }
 
 .background {
-  background-color: #000033; /* dark blue color */
-  position: relative;
+  background-color: #091623; /* sky-color */
+  position: absolute;
+  height: 400px;
   top: 0;
   bottom: 0;
   left: 0;
@@ -100,9 +89,23 @@
 }
 
 .star {
+  z-index: 0;
   position: absolute;
   width: 2px;
   height: 2px;
   background: silver;
   border-radius: 50%;
+}
+
+.resume-body {
+  padding-top: 400px;
+}
+
+.body-part {
+  background-color: #1c3b5f;
+}
+
+.icons {
+  display: flex;
+  gap: 21px;
 }

@@ -1,4 +1,10 @@
 import { useRef, useEffect } from "react";
+import profile from "../assets/Foto.jpg";
+import github from "../assets/github.png";
+import linkedin64 from "../assets/linkedin64.png";
+import cellphone from "../assets/cell-phone.png";
+import email from "../assets/email.png";
+import map from "../assets/map.png";
 
 const numberOfStars = 250;
 
@@ -72,7 +78,41 @@ const Background = () => {
 
   return (
     <div className="background">
-      <div id="stars" ref={starsRef} style={{ width: 1080, height: 300 }} />
+      <img className="image" src={profile} alt="profile" />
+      <div className="info-container">
+        <div className="nameTitle">Ricardo Kazuo Diniz Nozaki</div>
+        <div className="contact">
+          <div className="info-text">
+            <img width="32px" src={cellphone} alt="smartphone icon" />
+            Celular: (12) 98172-1089
+          </div>
+          <div className="info-text">
+            <img width="32px" src={email} alt="email icon" />
+            E-mail: ricardo.k.nozaki@gmail.com
+          </div>
+          <div className="info-text">
+            <img width="32px" src={map} alt="map icon" />
+            Cidade: Taubaté-SP
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/ricardo-nozaki-2870b5189/">
+              <img width="32px" src={linkedin64} alt="icon linkedin"></img>
+            </a>
+          </div>
+          <div>
+            <a href="https://github.com/Rickazuo">
+              <img width="32px" src={github} alt="icon github"></img>
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* <header className="header">
+      </header> */}
+      <div
+        id="stars"
+        ref={starsRef}
+        style={{ width: "100%", height: "100%" }}
+      ></div>
     </div>
   );
 };
