@@ -1,3 +1,6 @@
+import React from "react";
+import { render } from "react-dom";
+
 import './App.css';
 import js from './assets/js.png'
 import react from './assets/react.png'
@@ -5,8 +8,11 @@ import html5 from './assets/html-5.png'
 import css3 from './assets/css-3.png'
 import github from './assets/github.png'
 import mysql from './assets/mysql.png'
+
 import { Resume } from './components/Resume';
 import Background from './components/background';
+import Carousel from './Carousel';
+
 
 const resume = [{
   aboutMe: `Sou Engenheiro de Produção que busca aprender e interagir com os novos desafios 
@@ -19,39 +25,7 @@ const resume = [{
 function App() {
   return (
     <div className='main-container' >
-      <Background></Background>
-      {/* <header className='header' >
-        <img className='image' src={profile} alt='profile'/>
-        <div>
-        <div className='nameTitle'>
-        Ricardo Kazuo Diniz Nozaki
-        </div>
-        <div className='contact'>
-          <div className='info-text'>
-            <img src={cellphone} alt="smartphone icon"/>
-          Celular: (12) 98172-1089
-          </div>
-          <div className='info-text'>
-            <img src={email} alt="email icon"/>
-          E-mail: ricardo.k.nozaki@gmail.com
-          </div >
-          <div className='info-text'>
-            <img src={map} alt="map icon"/>
-          Cidade: Taubaté-SP
-          </div>
-          <div>
-            <a href='https://www.linkedin.com/in/ricardo-nozaki-2870b5189/'>
-            <img width="32px" src={linkedin64} alt="icon linkedin"></img>
-            </a>
-          </div>
-          <div>
-            <a href="https://github.com/Rickazuo">
-              <img width="32px" src={github} alt="icon github"></img>
-            </a>
-          </div> 
-        </div>
-        </div>
-      </header> */}
+      <Background/>
       <div className='resume-body'>
       <div>
         {resume.map(({aboutMe}) =>
@@ -64,31 +38,7 @@ function App() {
       <div className='row'>
         <div className='column left-column'>
           <h1>Experiência Profissional</h1>
-          <h3>Assistente no Gerenciamento de Processos Internos, Drakkar Solos - Agricultura de
-            Precisão (Fev 2020 - Fev 2021)- Estágio
-          </h3>
-          <ul>
-            <li>Identificação e mapeamento de processos;</li>
-            <li>Utilização do Bizagi Modeler e Sólides para integração dos processos;</li>
-            <li>Implementação de novos sistemas para os colaboradores</li>
-          </ul>
-          <h3>
-          Assistente no Desenvolvimento de projeto de TI, Drakkar Solos - Agricultura de
-          Precisão (Fev 2020 - Fev 2021)- Estágio
-          </h3>
-          <ul>
-            <li>Revisão sobre os prótotipos desenvolvidos;</li>
-            <li>Auxílio na interpretação das demandas do cliente;</li>
-          </ul>
-          <h3>
-          Assistente de Escritório, Riosul Comércio de Motocicletas (Jan 2008 - Dez 2011) 
-          Meio Período
-          </h3>
-          <ul>
-            <li>Lançamento de contas a pagar e a receber;</li>
-            <li>Organização do material financeiro no sistema NBS;</li>
-            <li>Serviço de manutenção de computadores</li>
-          </ul>
+        <Carousel />
         </div>
         <div className='column'>
           <h1>Formação Acadêmica</h1>
@@ -125,4 +75,5 @@ function App() {
   );
 }
 
+render(<App />, document.getElementById("root"));
 export default App;

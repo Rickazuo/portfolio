@@ -63,6 +63,7 @@
 
 .left-column {
   margin-right: 12vw;
+  height: 100vh;
 }
 
 .row {
@@ -108,4 +109,24 @@
 .icons {
   display: flex;
   gap: 21px;
+}
+
+.carousel {
+  text-align: justify;
+}
+
+.slide {
+  padding: 1.875rem;
+  height: 30vh;
+  font-size: 1.125rem;
+  background: #162e4a;
+  border: solid #0e1d2f 5px;
+}
+
+li {
+  text-align: justify;
+}
+
+.carousel .carousel-status {
+  z-index: -1;
 }
