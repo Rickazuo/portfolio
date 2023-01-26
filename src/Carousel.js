@@ -1,6 +1,8 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 
+// Aplicacao do Carousel 
+
 const CarouselBox = () => (
   <Carousel>
     <div className="carousel">
