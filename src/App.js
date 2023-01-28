@@ -40,7 +40,7 @@ function App() {
           <h1>Experiência Profissional</h1>
         <Carousel />
         </div>
-        <div className='column'>
+        <div className='column right-column'>
           <h1>Formação Acadêmica</h1>
           <h3>Graduado em Engenharia de Produção</h3>
           <p>Universidade Federal de Santa Maria (2017-2022)</p>
