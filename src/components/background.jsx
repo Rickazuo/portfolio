@@ -6,6 +6,7 @@ import cellphone from "../assets/cell-phone.png";
 import email from "../assets/email.png";
 import map from "../assets/map.png";
 
+//Background with stars
 const numberOfStars = 250;
 
 const Background = () => {
