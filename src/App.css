@@ -50,11 +50,13 @@
   z-index: 3;
   left: 8vw;
   top: 4vw;
+  width: 200px;
+  height: auto;
 }
 
 .aboutMe {
   background-color: #112740;
-  padding: 0.125rem 8vw;
+  padding: 2.125rem 8vw;
   font-size: 22px;
   text-align: justify;
 }
