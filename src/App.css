@@ -13,50 +13,51 @@
   text-align: center;
 }
 
-.info-container {
-  display: inline;
-  position: relative;
-  top: 36px;
-  z-index: 3;
-  //width: 40%;
-  //height: 60%;
-  background: green;
-  flex-direction: column;
+.over-name-title {
+  /* background: green; */
+  z-index: -3;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 4vw;
 }
 
 .nameTitle {
+  position: relative;
   text-align: center;
   font: 45px Arial, sans-serif;
   margin-bottom: 18px;
   z-index: 3;
+  margin-right: 8vw;
 }
 
 .info-text {
   display: flex;
-  flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
-  gap: 12px;
-  background: red;
+  margin-right: 8vw;
 }
 
 .contact {
-  display: flex-inline;
+  display: flex;
+  justify-content: flex-end;
   flex-direction: column;
-  align-items: end;
-  gap: 20px;
-  position: relative;
-  right: 0;
+  z-index: -3;
+  width: 100%;
+  gap: 12px;
+  margin-top: 1.25rem;
 }
 
 .image {
-  border-radius: 200px;
-  background-color: black;
   position: absolute;
   z-index: 3;
   left: 8vw;
   top: 4vw;
   width: 200px;
   height: auto;
+  border-radius: 200px;
+  border-style: outset;
+  border-color: #1f1b5e;
 }
 
 .aboutMe {
@@ -106,15 +107,16 @@
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .star {
-  z-index: 0;
+  z-index: 2;
   position: absolute;
-  width: 2px;
-  height: 2px;
+  width: 0.125rem;
+  height: 0.155rem;
   background: silver;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .resume-body {
@@ -151,28 +153,45 @@ li {
 }
 
 @media only screen and (max-width: 1000px) {
+  .background {
+    height: 700px;
+  }
+
   .image {
     left: 50%;
     transform: translateX(-50%);
   }
-  .info-container {
+
+  .nameTitle {
     left: 50%;
     transform: translateX(-50%);
     top: 280px;
   }
+
   .contact {
-    left: 50%;
-    transform: translateX(10%);
-    top: 300px;
+    display: flex;
+    justify-content: center;
+    /* left: 50%; */
+    /* transform: translateX(-10%); */
+    margin-top: 300px;
     text-align: right;
     width: 100%;
   }
-  .background {
-    height: 850px;
+
+  .info-text {
+    z-index: 3;
+    gap: 12px;
   }
+
+  .aboutMe {
+    margin-top: 300px;
+    text-align: center;
+  }
+
   .body-part {
     justify-content: space-between;
   }
+
   .left-column {
     left: 50%;
     transform: translateX(60%);
@@ -183,9 +202,11 @@ li {
     gap: 0px;
     text-align: center;
   }
+
   .carousel {
     font-size: 14px;
   }
+
   .right-column {
     left: 50%;
     transform: translateX(-105%);
@@ -194,7 +215,16 @@ li {
     width: 100vw;
     text-align: center;
   }
+
   .icons {
     gap: 8px;
+  }
+}
+
+@media only screen and (max-width: 1200px), screen and (max-height: 850px) {
+  .nameTitle {
+    left: 50%;
+    transform: translateX(-80%);
+    top: 280px;
   }
 }

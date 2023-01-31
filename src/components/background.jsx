@@ -7,7 +7,7 @@ import email from "../assets/email.png";
 import map from "../assets/map.png";
 
 //Background with stars
-const numberOfStars = 250;
+const numberOfStars = 650;
 
 const Background = () => {
   const starsRef = useRef();
@@ -80,58 +80,31 @@ const Background = () => {
   return (
     <div className="background">
       <img className="image" src={profile} alt="profile" />
-      <div className="info-container">
+      <div className="over-name-title">
         <div className="nameTitle">Ricardo Kazuo Diniz Nozaki</div>
-        {/*<div className="contact">
-          <div className="info-text">
-            <img width="32px" src={cellphone} alt="smartphone icon" />
-            Celular: (12) 98172-1089
-          </div>
-          <div className="info-text">
-            <img width="32px" src={email} alt="email icon" />
-            E-mail: ricardo.k.nozaki@gmail.com
-          </div>
-          <div className="info-text">
-            <img width="32px" src={map} alt="map icon" />
-            Cidade: Taubaté-SP
-          </div>
-          <div>
-            <a href="https://www.linkedin.com/in/ricardo-nozaki-2870b5189/">
-              <img width="32px" src={linkedin64} alt="icon linkedin"></img>
-            </a>
-          </div>
-          <div>
-            <a href="https://github.com/Rickazuo">
-              <img width="32px" src={github} alt="icon github"></img>
-            </a>
-          </div>
-  </div>*/}
       </div>
-      <div className="info-container">
-        {/*<div className="nameTitle">Ricardo Kazuo Diniz Nozaki</div>*/}
-        <div className="contact">
-          <div className="info-text">
-            <img width="32px" src={cellphone} alt="smartphone icon" />
-            Celular: (12) 98172-1089
-          </div>
-          <div className="info-text">
-            <img width="32px" src={email} alt="email icon" />
-            E-mail: ricardo.k.nozaki@gmail.com
-          </div>
-          <div className="info-text">
-            <img width="32px" src={map} alt="map icon" />
-            Cidade: Taubaté-SP
-          </div>
-          <div>
-            <a href="https://www.linkedin.com/in/ricardo-nozaki-2870b5189/">
-              <img width="32px" src={linkedin64} alt="icon linkedin"></img>
-            </a>
-          </div>
-          <div>
-            <a href="https://github.com/Rickazuo">
-              <img width="32px" src={github} alt="icon github"></img>
-            </a>
-          </div>
+      <div className="contact">
+        <div className="info-text">
+          <img width="32px" src={cellphone} alt="smartphone icon" />
+          Celular: (12) 98172-1089
+        </div>
+        <div className="info-text">
+          <img width="32px" src={email} alt="email icon" />
+          E-mail: ricardo.k.nozaki@gmail.com
+        </div>
+        <div className="info-text">
+          <img width="32px" src={map} alt="map icon" />
+          Cidade: Taubaté-SP
+        </div>
+        <div className="info-text">
+          <a href="https://www.linkedin.com/in/ricardo-nozaki-2870b5189/">
+            <img width="32px" src={linkedin64} alt="icon linkedin"></img>
+          </a>
+        </div>
+        <div className="info-text">
+          <a href="https://github.com/Rickazuo">
+            <img width="32px" src={github} alt="icon github"></img>
+          </a>
         </div>
       </div>
       <div
