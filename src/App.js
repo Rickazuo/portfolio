@@ -49,7 +49,7 @@ function App() {
           <h3>Ensino Médio</h3>
           <p>Colégio Santíssima Tridade, Cruz Alta - RS (2009 - 2011)</p>
           <h1>Habilidades e Interesses</h1>
-          <ul>
+          <ul className="skills-list">
             <li>Pacote Office;</li>
             <li>Inglês intermediário;</li>
             <li>Rápida adaptação ao uso de ferramentas e softwares;</li>

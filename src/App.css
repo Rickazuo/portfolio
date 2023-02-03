@@ -14,7 +14,6 @@
 }
 
 .over-name-title {
-  /* background: green; */
   z-index: -3;
   display: flex;
   width: 100%;
@@ -130,10 +129,14 @@
 .icons {
   display: flex;
   gap: 21px;
+  padding: 20px 0;
 }
 
 .carousel {
-  text-align: justify;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .slide {
@@ -145,11 +148,16 @@
 }
 
 li {
-  text-align: justify;
+  text-align: left;
+  padding-bottom: 0.525rem;
 }
 
 .carousel .carousel-status {
   z-index: -1;
+}
+
+.carousel .slider-wrapper.axis-horizontal .slider .slide {
+  height: auto;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -162,17 +170,21 @@ li {
     transform: translateX(-50%);
   }
 
+  .over-name-title {
+    display: flex;
+    flex-direction: column;
+  }
+
   .nameTitle {
-    left: 50%;
-    transform: translateX(-50%);
+    display: flex;
     top: 280px;
+    align-self: center;
+    margin-right: 0;
   }
 
   .contact {
     display: flex;
     justify-content: center;
-    /* left: 50%; */
-    /* transform: translateX(-10%); */
     margin-top: 300px;
     text-align: right;
     width: 100%;
@@ -193,14 +205,11 @@ li {
   }
 
   .left-column {
-    left: 50%;
-    transform: translateX(60%);
-    margin-top: 150px;
-    margin-right: 50%;
+    margin-top: 50px;
     width: 100%;
     font-size: 25px;
-    gap: 0px;
     text-align: center;
+    height: 100%;
   }
 
   .carousel {
@@ -208,23 +217,18 @@ li {
   }
 
   .right-column {
-    left: 50%;
-    transform: translateX(-105%);
-    margin-top: 550px;
-    gap: 22px;
-    width: 100vw;
+    width: 100%;
     text-align: center;
   }
 
   .icons {
-    gap: 8px;
+    gap: 14px;
   }
-}
 
-@media only screen and (max-width: 1200px), screen and (max-height: 850px) {
-  .nameTitle {
-    left: 50%;
-    transform: translateX(-80%);
-    top: 280px;
+  .row {
+    display: flex;
+    position: relative;
+    align-items: start;
+    flex-direction: column;
   }
 }

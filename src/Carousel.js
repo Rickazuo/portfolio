@@ -3,8 +3,9 @@ import { Carousel } from "react-responsive-carousel";
 
 // Aplicação do Carousel 
 
+
 const CarouselBox = () => (
-  <Carousel>
+  <Carousel showThumbs= {false}>
     <div className="carousel">
     <h3>
     Assistente no Gerenciamento de Processos Internos, Drakkar Solos - Agricultura de Precisão (Fev 2020 - Fev 2021)- Estágio
