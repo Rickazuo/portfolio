@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.carousel {
+  box-sizing: border-box;
+}
+
+.carousel img {
+  max-width: 600px;
+  align-self: center;
+}
+
+.portfolio-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 38px;
+}
+
+.portfolio-title img {
+  width: 32px !important;
+}
+
+/* .exampleImage {
+  width: 730px !important;
+} */

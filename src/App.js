@@ -9,9 +9,12 @@ import css3 from './assets/css-3.png'
 import github from './assets/github.png'
 import mysql from './assets/mysql.png'
 
-import { Resume } from './components/Resume';
-import Background from './components/background';
+import { Resume } from './components/resume/resume';
+import Background from './components/background/background';
 import Carousel from './Carousel';
+import Portfolio from "./components/portfolio/portfolio";
+import Footer from "./components/footer/footer";
+
 
 
 const resume = [{
@@ -39,6 +42,7 @@ function App() {
         <div className='column left-column'>
           <h1>Experiência Profissional</h1>
         <Carousel />
+        <Portfolio />
         </div>
         <div className='column right-column'>
           <h1>Formação Acadêmica</h1>
@@ -71,6 +75,7 @@ function App() {
       </div>
       </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #1c3b5f;
+}
+
 #root {
   font-family: "Arial";
   color: #ede7f6;
@@ -120,10 +124,6 @@
 
 .resume-body {
   padding-top: 400px;
-}
-
-.body-part {
-  background-color: #1c3b5f;
 }
 
 .icons {
