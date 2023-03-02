@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4a6f5235.css",
-    "main.js": "/portfolio/static/js/main.ecb1001c.js",
+    "main.css": "/portfolio/static/css/main.f71b81ce.css",
+    "main.js": "/portfolio/static/js/main.74ed4684.js",
+    "static/media/gif-carnaval-web.gif": "/portfolio/static/media/gif-carnaval-web.94f790b77348094280fd.gif",
+    "static/media/boardingpass.gif": "/portfolio/static/media/boardingpass.2942ee768e464d88c390.gif",
+    "static/media/dashboard.gif": "/portfolio/static/media/dashboard.0ee6cc6f4f7c14923508.gif",
+    "static/media/explorerhabits.jpg": "/portfolio/static/media/explorerhabits.fb836b52e5d2015bbe90.jpg",
     "static/media/Foto.jpg": "/portfolio/static/media/Foto.38cf7c1205a683597f88.jpg",
+    "static/media/worldCup.png": "/portfolio/static/media/worldCup.cf9ae0df8ebf67144c12.png",
+    "static/media/calculator.jpg": "/portfolio/static/media/calculator.3d75d8f24dca03cc0134.jpg",
     "static/media/email.png": "/portfolio/static/media/email.a49e015815e3ac6d2bd3.png",
     "static/media/map.png": "/portfolio/static/media/map.0b372d75531fd09fab58.png",
     "static/media/github.png": "/portfolio/static/media/github.b1204d249df46fe051a0.png",
     "index.html": "/portfolio/index.html",
-    "main.4a6f5235.css.map": "/portfolio/static/css/main.4a6f5235.css.map",
-    "main.ecb1001c.js.map": "/portfolio/static/js/main.ecb1001c.js.map"
+    "main.f71b81ce.css.map": "/portfolio/static/css/main.f71b81ce.css.map",
+    "main.74ed4684.js.map": "/portfolio/static/js/main.74ed4684.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a6f5235.css",
-    "static/js/main.ecb1001c.js"
+    "static/css/main.f71b81ce.css",
+    "static/js/main.74ed4684.js"
   ]
 }
