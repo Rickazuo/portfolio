@@ -139,6 +139,11 @@ body {
   gap: 14px;
 }
 
+.carousel .slider-wrapper {
+  border-radius: 6px;
+  box-shadow: 3px 4px 26px rgba(0, 0, 0, 0.365);
+}
+
 .slide {
   padding: 1.875rem;
   height: 30vh;
