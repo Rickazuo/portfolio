@@ -1,4 +1,3 @@
-// import { useEffect, useState } from "react";
 import "./portfolio.css";
 import { Carousel } from "react-responsive-carousel";
 import github from "../../assets/github.png";
@@ -8,27 +7,50 @@ import boardingpass from "../../assets/boardingpass.gif";
 import calculator from "../../assets/calculator.jpg";
 import explorerhabits from "../../assets/explorerhabits.jpg";
 import gamesWorldCup from "../../assets/worldCup.png";
+import currencyChange from "../../assets/currency.gif";
+import weatherDashboard from "../../assets/weatherDashboard.gif";
 
 export default function Portfolio() {
-  // const [repositories, setRepositories] = useState([]);
-
-  // const getAllRepositories = async () => {
-  //   await fetch("https://api.github.com/users/rickazuo/repos")
-  //     .then((response) => response.json())
-  //     .then((repositories) => {
-  //       setRepositories(repositories);
-  //     });
-  // };
-
-  // useEffect(() => {
-  //   getAllRepositories();
-  // }, []);
-
   return (
     <div>
       <h1>Portfólio e Projetos</h1>
       <br />
       <Carousel showThumbs={false}>
+        <div className="carousel">
+          <div className="portfolio-title">
+            <h3>Weather DashBoard</h3>
+            <a
+              href="https://github.com/Rickazuo/weather-dashboard"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img width={32} src={github} alt="" />
+            </a>
+          </div>
+          <p>
+            Atividade do desafio #BoraCodar da RocketSeat para o desenvolvimento
+            de um dashboard climático, tendo como referência São Paulo,
+            utilizando as Apis do site Open meteo.
+          </p>
+          <img src={weatherDashboard} alt="gif do projeto currency converter" />
+        </div>
+        <div className="carousel">
+          <div className="portfolio-title">
+            <h3>Currency Converter</h3>
+            <a
+              href="https://github.com/Rickazuo/currency-converter-rocketseat"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img width={32} src={github} alt="" />
+            </a>
+          </div>
+          <p>
+            Atividade do desafio #BoraCodar da RocketSeat para o desenvolvimento
+            de um conversor de moeda, com histórico.
+          </p>
+          <img src={currencyChange} alt="gif do projeto currency converter" />
+        </div>
         <div className="carousel">
           <div className="portfolio-title">
             <h3>Boarding Pass</h3>
