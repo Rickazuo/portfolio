@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ecb006d7.css",
-    "main.js": "/portfolio/static/js/main.74ed4684.js",
+    "main.js": "/portfolio/static/js/main.989c3183.js",
     "static/media/gif-carnaval-web.gif": "/portfolio/static/media/gif-carnaval-web.94f790b77348094280fd.gif",
+    "static/media/currency.gif": "/portfolio/static/media/currency.631bde5282cff53801af.gif",
     "static/media/boardingpass.gif": "/portfolio/static/media/boardingpass.2942ee768e464d88c390.gif",
     "static/media/dashboard.gif": "/portfolio/static/media/dashboard.0ee6cc6f4f7c14923508.gif",
+    "static/media/weatherDashboard.gif": "/portfolio/static/media/weatherDashboard.1362995dfa7119f24596.gif",
     "static/media/explorerhabits.jpg": "/portfolio/static/media/explorerhabits.fb836b52e5d2015bbe90.jpg",
     "static/media/Foto.jpg": "/portfolio/static/media/Foto.38cf7c1205a683597f88.jpg",
     "static/media/worldCup.png": "/portfolio/static/media/worldCup.cf9ae0df8ebf67144c12.png",
@@ -14,10 +16,10 @@
     "static/media/github.png": "/portfolio/static/media/github.b1204d249df46fe051a0.png",
     "index.html": "/portfolio/index.html",
     "main.ecb006d7.css.map": "/portfolio/static/css/main.ecb006d7.css.map",
-    "main.74ed4684.js.map": "/portfolio/static/js/main.74ed4684.js.map"
+    "main.989c3183.js.map": "/portfolio/static/js/main.989c3183.js.map"
   },
   "entrypoints": [
     "static/css/main.ecb006d7.css",
-    "static/js/main.74ed4684.js"
+    "static/js/main.989c3183.js"
   ]
 }
