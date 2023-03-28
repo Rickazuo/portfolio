@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ecb006d7.css",
-    "main.js": "/portfolio/static/js/main.989c3183.js",
+    "main.css": "/portfolio/static/css/main.f0beb288.css",
+    "main.js": "/portfolio/static/js/main.321b21ce.js",
     "static/media/gif-carnaval-web.gif": "/portfolio/static/media/gif-carnaval-web.94f790b77348094280fd.gif",
     "static/media/currency.gif": "/portfolio/static/media/currency.631bde5282cff53801af.gif",
     "static/media/boardingpass.gif": "/portfolio/static/media/boardingpass.2942ee768e464d88c390.gif",
@@ -15,11 +15,11 @@
     "static/media/map.png": "/portfolio/static/media/map.0b372d75531fd09fab58.png",
     "static/media/github.png": "/portfolio/static/media/github.b1204d249df46fe051a0.png",
     "index.html": "/portfolio/index.html",
-    "main.ecb006d7.css.map": "/portfolio/static/css/main.ecb006d7.css.map",
-    "main.989c3183.js.map": "/portfolio/static/js/main.989c3183.js.map"
+    "main.f0beb288.css.map": "/portfolio/static/css/main.f0beb288.css.map",
+    "main.321b21ce.js.map": "/portfolio/static/js/main.321b21ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecb006d7.css",
-    "static/js/main.989c3183.js"
+    "static/css/main.f0beb288.css",
+    "static/js/main.321b21ce.js"
   ]
 }
