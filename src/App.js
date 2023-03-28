@@ -46,6 +46,11 @@ function App() {
         </div>
         <div className='column right-column'>
           <h1>Formação Acadêmica</h1>
+          <h3>Programa de Desenvolvimento de Software Explorer</h3>
+          <p>RocketSeat (2023-2024)</p>
+          <h3>Pós-graduação em Análise e
+Desenvolvimento de Programas</h3>
+          <p>Descomplica (2023-2024)</p>
           <h3>Graduado em Engenharia de Produção</h3>
           <p>Universidade Federal de Santa Maria (2017-2022)</p>
           <h3>Graduação Incompleta em Engenharia de Computação</h3>

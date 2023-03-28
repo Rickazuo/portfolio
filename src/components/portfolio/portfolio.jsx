@@ -24,7 +24,7 @@ export default function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              <img width={32} src={github} alt="" />
+              <img width={32} src={github} alt="github icon" />
             </a>
           </div>
           <p>
@@ -32,7 +32,11 @@ export default function Portfolio() {
             de um dashboard climático, tendo como referência São Paulo,
             utilizando as Apis do site Open meteo.
           </p>
-          <img src={weatherDashboard} alt="gif do projeto currency converter" />
+          <img
+            className="portfolio-gif"
+            src={weatherDashboard}
+            alt="gif do projeto currency converter"
+          />
         </div>
         <div className="carousel">
           <div className="portfolio-title">
@@ -42,14 +46,18 @@ export default function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              <img width={32} src={github} alt="" />
+              <img width={32} src={github} alt="github icon" />
             </a>
           </div>
           <p>
             Atividade do desafio #BoraCodar da RocketSeat para o desenvolvimento
             de um conversor de moeda, com histórico.
           </p>
-          <img src={currencyChange} alt="gif do projeto currency converter" />
+          <img
+            className="portfolio-gif"
+            src={currencyChange}
+            alt="gif do projeto currency converter"
+          />
         </div>
         <div className="carousel">
           <div className="portfolio-title">
@@ -59,7 +67,7 @@ export default function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              <img width={32} src={github} alt="" />
+              <img width={32} src={github} alt="github icon" />
             </a>
           </div>
           <p>
@@ -67,7 +75,11 @@ export default function Portfolio() {
             de um cartão de embarque, implementando dados que geram resultados
             diferentes para o cartão
           </p>
-          <img src={boardingpass} alt="gif do projeto boarding pass" />
+          <img
+            className="portfolio-gif"
+            src={boardingpass}
+            alt="gif do projeto boarding pass"
+          />
         </div>
         <div className="carousel">
           <div className="portfolio-title">
@@ -77,7 +89,7 @@ export default function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              <img width={32} src={github} alt="" />
+              <img width={32} src={github} alt="github icon" />
             </a>
           </div>
           <p>
@@ -85,7 +97,11 @@ export default function Portfolio() {
             de um buscador de bloquinhos para o carnaval, com implementação de
             mapa
           </p>
-          <img src={gifcarnaval} alt="gif do projeto carnaval searcher" />
+          <img
+            className="portfolio-gif"
+            src={gifcarnaval}
+            alt="gif do projeto carnaval searcher"
+          />
         </div>
         <div className="carousel">
           <div className="portfolio-title">
@@ -95,14 +111,18 @@ export default function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              <img width={32} src={github} alt="" />
+              <img width={32} src={github} alt="github icon" />
             </a>
           </div>
           <p>
             Atividade do desafio #BoraCodar da RocketSeat para o desenvolvimento
             de um dashboard de vendas
           </p>
-          <img src={dashboard} alt="gif do projeto dashboard" />
+          <img
+            className="portfolio-gif"
+            src={dashboard}
+            alt="gif do projeto dashboard"
+          />
         </div>
         <div className="carousel">
           <div className="portfolio-title">
@@ -112,14 +132,18 @@ export default function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              <img width={32} src={github} alt="" />
+              <img width={32} src={github} alt="github icon" />
             </a>
           </div>
           <p>
             Atividade do desafio #BoraCodar da RocketSeat para o desenvolvimento
             de uma calculadora funcional com histórico
           </p>
-          <img src={calculator} alt="imagem do projeto calculator" />
+          <img
+            className="portfolio-gif"
+            src={calculator}
+            alt="imagem do projeto calculator"
+          />
         </div>
         <div className="carousel">
           <div className="portfolio-title">
@@ -129,14 +153,18 @@ export default function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              <img width={32} src={github} alt="" />
+              <img width={32} src={github} alt="github icon" />
             </a>
           </div>
           <p>
             Atividade do desafio da Nlw-Setup da RocketSeat para o
             desenvolvimento de um diários de hábitos
           </p>
-          <img src={explorerhabits} alt="imagem do projeto explorer habits" />
+          <img
+            className="portfolio-gif"
+            src={explorerhabits}
+            alt="imagem do projeto explorer habits"
+          />
         </div>
         <div className="carousel">
           <div className="portfolio-title">
@@ -146,7 +174,7 @@ export default function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              <img width={32} src={github} alt="" />
+              <img width={32} src={github} alt="github icon" />
             </a>
           </div>
           <p>
@@ -154,6 +182,7 @@ export default function Portfolio() {
             de uma agenda para os jogos da Copa do Mundo de 2022
           </p>
           <img
+            className="portfolio-gif"
             src={gamesWorldCup}
             alt="imagem do projeto games world cup 2022"
           />
